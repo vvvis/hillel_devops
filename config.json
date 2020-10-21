@@ -1,0 +1,14 @@
+{
+  "sitename": "mysite.local",
+  "siteroot_dir": "/var/www/html",
+  "db": {
+    "username": "mysite",
+    "password": "strongpwd",
+    "name": "mydb"
+    },
+  "backup": {
+    "dir": "/var/backups/wordpress",
+    "period": "* * * * 0",
+    "count": "3"
+  }
+}
